@@ -25,14 +25,9 @@ body{
 }
 
 .sidebar p:hover {
-	color: #5EB6EA;
+	color: #224DCE;
 }
 
-/*.line{
-	height:1px;
-	background: #649AD2;
-}*/
-	
 .content {
 	margin-left: 160px;
 	padding: 0px 10px;
