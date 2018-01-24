@@ -36,8 +36,9 @@ body{
 	color: #A3BCF9;
 }
 
-.sidebar a:hover {
+.sidebar a:hover, a:visited, a:link, a:active {
 	color: #224DCE;
+	text-decoration: none;
 }
 
 .content {
