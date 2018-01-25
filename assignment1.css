@@ -46,6 +46,10 @@ body{
 	padding: 0px 10px;
 }
 
+.content_photo{
+	max-width: 100%
+}
+
 table {
 	border-collapse: collapse;
 	width: 100%
