@@ -47,10 +47,10 @@ body{
 }
 
 .banner {
-	max-width: 100%;
-    	height: auto;
-	margin-left: 160px;
-	padding: 0px 10px;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
 }
 
 table {
