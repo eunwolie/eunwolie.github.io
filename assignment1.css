@@ -4,6 +4,10 @@ body{
 	color:#80818B;	
 }
 
+body, html {
+	width: 100%
+}
+
 .sidebar {
 	height: 100%;
 	width: 160px;
@@ -41,11 +45,6 @@ body{
 	text-decoration: none;
 }
 
-.content {
-	margin-left: 160px;
-	padding: 0px 10px;
-}
-
 .hero-image {
     /* The image used */
     background-image: url("https://www.westjet.com/book/resources/_prod/img/hero/calgary.jpg");
@@ -69,6 +68,13 @@ body{
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.content {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+
+
 
 
 table {
