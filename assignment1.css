@@ -47,7 +47,8 @@ body{
 }
 
 .banner {
-	width:100%;
+	max-width: 100%;
+    	height: auto;
 	margin-left: 160px;
 	padding: 0px 10px;
 }
