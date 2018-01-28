@@ -47,6 +47,7 @@ body{
 }
 
 header{
+	background-image:url(https://www.westjet.com/book/resources/_prod/img/hero/calgary.jpg);
 	margin-left: 160px;
 	padding: 0px 10px;
 	width: 100%;
@@ -55,6 +56,7 @@ header{
   	background-position: center;
   	overflow: hidden;
   	position: relative;
+  	height: 800px;
 }
 
 .banner{
