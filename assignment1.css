@@ -55,6 +55,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	width: 100%;
 }
 
 .header_about{
