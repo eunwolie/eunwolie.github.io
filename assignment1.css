@@ -46,20 +46,76 @@ body{
 	padding: 0px 10px;
 }
 
-header{
+.header_main{
 	background-image:url(https://www.westjet.com/book/resources/_prod/img/hero/calgary.jpg);
 	margin-left: 160px;
 	padding: 0px 10px;
-	width: 100%;
-  	background-size: cover;
-  	background-repeat: no-repeat;
-  	background-position: center;
-  	overflow: hidden;
-  	position: relative;
-  	height: 400px;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
-.banner{
+.header_about{
+	background-image:url(https://www.westjet.com/book/resources/_prod/img/hero/calgary.jpg);
+	margin-left: 160px;
+	padding: 0px 10px;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.header_japan{
+	background-image:url(https://www.westjet.com/book/resources/_prod/img/hero/calgary.jpg);
+	margin-left: 160px;
+	padding: 0px 10px;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.header_korea{
+	background-image:url(https://www.westjet.com/book/resources/_prod/img/hero/calgary.jpg);
+	margin-left: 160px;
+	padding: 0px 10px;
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+.header_main .banner{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header_about .banner{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header_japan .banner{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header_korea .banner{
 	position: absolute;
 	width: 100%;
 	bottom: 0;
