@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "pokemon pixel font";
+  src: url('../eunwolie.github.io/pokemon_pixel_font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   height: 100%;
 }
@@ -13,7 +20,6 @@ body {
 
 h1 {
   font: 700 80px/1 pokemon pixel font;
-  src: url('../eunwolie.github.io/pokemon_pixel_font.ttf') format('truetype');
   margin-left: 1em;
   margin-right: 1em;
   border: 5px solid black;
@@ -102,7 +108,6 @@ p{
 
 h2{
   font-family: pokemon pixel font;
-  src: url('../eunwolie.github.io/pokemon_pixel_font.ttf') format('truetype');
   padding-top: 20px;
   padding-bottom: 20px;
 }
