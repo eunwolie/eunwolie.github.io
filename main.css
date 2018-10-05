@@ -1,0 +1,215 @@
+html body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 100%;
+  height: auto;
+  align-items: center;
+  color: #ffffff;
+  
+  @media (max-width: 600px) {
+    flex-direction: column;
+    
+    .dex {
+      max-width: 100%;
+    }
+  }
+}
+
+.dex {
+  font-family: Lato, sans-serif;
+  max-width: 40%;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 300;
+  padding: 1rem 2rem;
+}
+
+.heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  letter-spacing: 0.25ch;
+  
+  > span {
+    font-weight: 100;
+    margin-right: 0.5ch;
+  }
+  
+  > strong {
+    font-size: 28px;
+    font-weight: 300;
+  }
+  
+}
+
+.pokeball {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: radial-gradient(0.4rem, black, black 50%, transparent 50%);
+  margin-right: 1rem;
+  
+  &:before, &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -0.063rem;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow:
+      inset 0 -0.09rem 0 0.09rem white,
+      inset 0.09rem -0.09rem 0 0.09rem white,
+      inset -0.09rem -0.09rem 0 0.09rem white
+      ;
+  }
+  
+  &:after {
+    transform-origin: top center;
+    transform: rotateX(180deg);
+    bottom: 0.063rem;
+  }
+}
+.info {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 14px;
+}
+
+.subheading {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+p {
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  transition: opacity 0.3s $easing;
+  &, &:active, &:visited {
+    color: white;
+  }
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+html {
+    background-color: #ffffff;
+  
+  @media (max-width: 600px) {
+    background-position: center -20vw;
+  }
+  
+  @media (max-width: 300px) {
+    background-position: center -30vw;
+  }
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.btn{
+
+  text-align: center;
+  width: 149px;
+  height: 149px;
+  border-radius: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none
+}
+
+.btn-1 {
+  background-image: url(https://orig00.deviantart.net/674b/f/2016/207/5/f/minimalist_vaporeon_icon__free_to_use__by_jedflah-dabhgpv.png);
+  background-size: cover;
+}
+
+.btn-1:hover {
+  background: #ffffff;
+  color: #538d90;
+}
+
+.btn-2 {
+  background-image: url(https://orig00.deviantart.net/f2e2/f/2016/207/f/7/minimalist_jolteon_icon__free_to_use__by_jedflah-dabhifv.png);
+  background-size: cover;
+}
+.btn-2:hover {
+  background: #ffffff;
+  color: #dab300;
+}
+
+.btn-3 {
+  background-image: url(https://orig00.deviantart.net/725a/f/2016/207/c/d/minimalist_flareon_icon__free_to_use__by_jedflah-dabhtpv.png);
+  background-size: cover;
+}
+.btn-3:hover {
+  background: #ffffff;
+  color: #b64b4e;
+}
+
+.btn-4 {
+  background-image: url(https://orig00.deviantart.net/6cb4/f/2016/207/f/4/minimalist_espeon_icon__free_to_use__by_jedflah-dabhv9n.png);
+  background-size: cover;
+}
+.btn-4:hover {
+  background: #ffffff;
+  color: #bf99b2;
+}
+
+.btn-5 {
+  background-image: url(https://orig00.deviantart.net/1f01/f/2016/207/d/9/minimalist_umbreon_icon__free_to_use__by_jedflah-dabhx8m.png);
+  background-size: cover;
+}
+.btn-5:hover {
+  background: #ffffff;
+  color: #30353a;
+}
+
+.btn-6 {
+  background-image: url(https://orig00.deviantart.net/3125/f/2016/207/d/2/minimalist_sylveon_icon__free_to_use__by_jedflah-dabi7lr.png);
+  background-size: cover;
+}
+.btn-6:hover {
+  background: #ffffff;
+  color: #d7736f;
+}
+
+.btn-7 {
+  background-image: url(https://orig00.deviantart.net/1aa0/f/2016/208/e/6/minimalist_leafeon_icon__free_to_use__by_jedflah-dabknp1.png);
+  background-size: cover;
+}
+.btn-7:hover {
+  background: #ffffff;
+  color: #c0dc96;
+}
+
+.btn-8 {
+  background-image: url(https://orig00.deviantart.net/2def/f/2016/207/e/6/minimalist_glaceon_icon__free_to_use__by_jedflah-dabi1q6.png);
+  background-size: cover;
+}
+.btn-8:hover {
+  background: #ffffff;
+  color: #267c91;
+}
