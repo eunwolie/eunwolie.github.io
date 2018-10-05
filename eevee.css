@@ -1,0 +1,173 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: #121221;
+  font: 700 14px/1 Montserrat, sans-serif;
+  letter-spacing: 0.125em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font: 700 80px/1 pokemon pixel font;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 5px solid black;
+}
+
+p{
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.intro{
+  font: 700 16px/1 'Raleway', sans-serif;
+  text-transform: none;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+.btn{
+  background: none;
+  border: 2px solid;
+  border-bottom-width: 4px;
+  font: inherit;
+  letter-spacing: inherit;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 1em 2em;
+  text-transform: inherit;
+  transition: color 1s;
+}
+
+.btn-1 {
+  color: #9c89f7;
+}
+.btn-1:hover {
+  background-image: url(https://media.giphy.com/media/X9N4IKfDreTJu/source.gif);
+  background-size: cover;
+  color: #e4f789;
+}
+
+.btn-2 {
+  color: #82f6d8;
+}
+.btn-2:hover {
+  background: url(https://i.kym-cdn.com/photos/images/original/000/753/457/252.gif);
+  background-size: cover;
+  color: #f682a0;
+}
+
+.btn-3 {
+  color: #ffda14;
+}
+.btn-3:hover {
+  background: url(http://33.media.tumblr.com/4489f77512939e4244cc5b58907d5ba6/tumblr_nnnlizELAM1r85hlio1_500.gif);
+  background-size: cover;
+  color: #1439ff;
+}
+
+.btn-4 {
+  color: #ff1439;
+}
+.btn-4:hover {
+  background: url(https://media.giphy.com/media/wk4SeFGomgFag/giphy.gif);
+  background-size: cover;
+  color: #14ffda;
+}
+
+.btn-5 {
+  color: #7cf07f;
+}
+.btn-5:hover {
+  background: url(https://i.pinimg.com/originals/c8/fa/d7/c8fad794af35376fe76661fed90207ec.gif);
+  background-size: cover;
+  color: #f07ced;
+}
+
+.btn-6 {
+  color: #14ff65;
+}
+.btn-6:hover {
+  background: url(https://thumbs.gfycat.com/HomelyMerryAnemonecrab-max-1mb.gif);
+  background-size: cover;
+  color: #7a0050;
+}
+
+h2{
+  font-family: pokemon pixel font;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subtitle {
+  margin: 0 0 2em 0;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  top: 0;
+  width: 100%;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.photo{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.link{
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: 2px solid black;
+}
+
+table#t01 {
+    width: 100%; 
+    background-color: #f1f1c1;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+.wallace{
+  width: 200px;
+  height: : 50px;
+  object-fit: cover;  
+}
+
