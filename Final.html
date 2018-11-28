@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="final.css">
+  <script type="text/javascript">
+  	ids = new Array(76); // an array with total number of ids
+function aud_play_pause(idNumber) {
+  var clickedAudio = document.getElementById(idNumber);
+
+  for (var i = 0; i < ids.length; i++) {
+    if ((i + 1) == idNumber && clickedAudio.currentTime == 0) { // if it's the current one and is not playing
+      clickedAudio.play(); // start it
+    } else { // either not the current one, or the current one but it is playing
+      document.getElementById(i + 1).pause(); // Pause all ids before playing next file.
+      document.getElementById(i + 1).currentTime = 0; // Set the time back to zero, else it will replay from the pause point.
+    }
+
+  }
+
+}
+  </script>
+  </head>
+<body>
+<h1> Eevee Music Mosaic </h1>
+<p> Press any piece of the mosaic to start playing music! </p>
+<audio id="1"> 
+<source src="01.mp3" type='audio/mpeg'>
+</audio>
+<audio id="2"> 
+<source src="02.mp3" type='audio/mpeg'>
+</audio>
+<audio id="3"> 
+<source src="03.mp3" type='audio/mpeg'>
+</audio>
+<audio id="4"> 
+<source src="04.mp3" type='audio/mpeg'>
+</audio>
+<audio id="5"> 
+<source src="05.mp3" type='audio/mpeg'>
+</audio>
+<audio id="6"> 
+<source src="06.mp3" type='audio/mpeg'>
+</audio>
+<audio id="7"> 
+<source src="07.mp3" type='audio/mpeg'>
+</audio>
+<audio id="8"> 
+<source src="08.mp3" type='audio/mpeg'>
+</audio>
+<audio id="9"> 
+<source src="09.mp3" type='audio/mpeg'>
+</audio>
+<audio id="10"> 
+<source src="10.mp3" type='audio/mpeg'>
+</audio>
+<audio id="11"> 
+<source src="11.mp3" type='audio/mpeg'>
+</audio>
+<audio id="12"> 
+<source src="12.mp3" type='audio/mpeg'>
+</audio>
+<audio id="13"> 
+<source src="13.mp3" type='audio/mpeg'>
+</audio>
+<audio id="14"> 
+<source src="14.mp3" type='audio/mpeg'>
+</audio>
+<audio id="15"> 
+<source src="15.mp3" type='audio/mpeg'>
+</audio>
+<audio id="16"> 
+<source src="16.mp3" type='audio/mpeg'>
+</audio>
+<audio id="17"> 
+<source src="17.mp3" type='audio/mpeg'>
+</audio>
+<audio id="18"> 
+<source src="18.mp3" type='audio/mpeg'>
+</audio>
+<audio id="19"> 
+<source src="19.mp3" type='audio/mpeg'>
+</audio>
+<audio id="20"> 
+<source src="20.mp3" type='audio/mpeg'>
+</audio>
+<audio id="21"> 
+<source src="21.mp3" type='audio/mpeg'>
+</audio>
+<audio id="22"> 
+<source src="22.mp3" type='audio/mpeg'>
+</audio>
+<audio id="23"> 
+<source src="23.mp3" type='audio/mpeg'>
+</audio>
+<audio id="24"> 
+<source src="24.mp3" type='audio/mpeg'>
+</audio>
+<audio id="25"> 
+<source src="25.mp3" type='audio/mpeg'>
+</audio>
+<audio id="26"> 
+<source src="26.mp3" type='audio/mpeg'>
+</audio>
+<audio id="27"> 
+<source src="27.mp3" type='audio/mpeg'>
+</audio>
+<audio id="28"> 
+<source src="28.mp3" type='audio/mpeg'>
+</audio>
+<audio id="29"> 
+<source src="29.mp3" type='audio/mpeg'>
+</audio>
+<audio id="30"> 
+<source src="30.mp3" type='audio/mpeg'>
+</audio>
+<audio id="31"> 
+<source src="31.mp3" type='audio/mpeg'>
+</audio>
+<audio id="32"> 
+<source src="32.mp3" type='audio/mpeg'>
+</audio>
+<audio id="33"> 
+<source src="33.mp3" type='audio/mpeg'>
+</audio>
+<audio id="34"> 
+<source src="34.mp3" type='audio/mpeg'>
+</audio>
+<audio id="35"> 
+<source src="35.mp3" type='audio/mpeg'>
+</audio>
+<audio id="36"> 
+<source src="36.mp3" type='audio/mpeg'>
+</audio>
+<audio id="37"> 
+<source src="37.mp3" type='audio/mpeg'>
+</audio>
+<audio id="38"> 
+<source src="38.mp3" type='audio/mpeg'>
+</audio>
+<audio id="39"> 
+<source src="39.mp3" type='audio/mpeg'>
+</audio>
+<audio id="40"> 
+<source src="40.mp3" type='audio/mpeg'>
+</audio>
+<audio id="41"> 
+<source src="41.mp3" type='audio/mpeg'>
+</audio>
+<audio id="42"> 
+<source src="42.mp3" type='audio/mpeg'>
+</audio>
+<audio id="43"> 
+<source src="43.mp3" type='audio/mpeg'>
+</audio>
+<audio id="44"> 
+<source src="44.mp3" type='audio/mpeg'>
+</audio>
+<audio id="45"> 
+<source src="45.mp3" type='audio/mpeg'>
+</audio>
+<audio id="46"> 
+<source src="46.mp3" type='audio/mpeg'>
+</audio>
+<audio id="47"> 
+<source src="47.mp3" type='audio/mpeg'>
+</audio>
+<audio id="48"> 
+<source src="48.mp3" type='audio/mpeg'>
+</audio>
+<audio id="49"> 
+<source src="49.mp3" type='audio/mpeg'>
+</audio>
+<audio id="50"> 
+<source src="50.mp3" type='audio/mpeg'>
+</audio>
+<audio id="51"> 
+<source src="51.mp3" type='audio/mpeg'>
+</audio>
+<audio id="52"> 
+<source src="52.mp3" type='audio/mpeg'>
+</audio>
+<audio id="53"> 
+<source src="53.mp3" type='audio/mpeg'>
+</audio>
+<audio id="54"> 
+<source src="54.mp3" type='audio/mpeg'>
+</audio>
+<audio id="55"> 
+<source src="55.mp3" type='audio/mpeg'>
+</audio>
+<audio id="56"> 
+<source src="56.mp3" type='audio/mpeg'>
+</audio>
+<audio id="57"> 
+<source src="57.mp3" type='audio/mpeg'>
+</audio>
+<audio id="58"> 
+<source src="58.mp3" type='audio/mpeg'>
+</audio>
+<audio id="59"> 
+<source src="59.mp3" type='audio/mpeg'>
+</audio>
+<audio id="60"> 
+<source src="60.mp3" type='audio/mpeg'>
+</audio>
+<audio id="61"> 
+<source src="61.mp3" type='audio/mpeg'>
+</audio>
+<audio id="62"> 
+<source src="62.mp3" type='audio/mpeg'>
+</audio>
+<audio id="63"> 
+<source src="63.mp3" type='audio/mpeg'>
+</audio>
+<audio id="64"> 
+<source src="64.mp3" type='audio/mpeg'>
+</audio>
+<audio id="65"> 
+<source src="65.mp3" type='audio/mpeg'>
+</audio>
+<audio id="66"> 
+<source src="66.mp3" type='audio/mpeg'>
+</audio>
+<audio id="67"> 
+<source src="67.mp3" type='audio/mpeg'>
+</audio>
+<audio id="68"> 
+<source src="68.mp3" type='audio/mpeg'>
+</audio>
+<audio id="69"> 
+<source src="69.mp3" type='audio/mpeg'>
+</audio>
+<audio id="70"> 
+<source src="70.mp3" type='audio/mpeg'>
+</audio>
+<audio id="71"> 
+<source src="71.mp3" type='audio/mpeg'>
+</audio>
+<audio id="72"> 
+<source src="72.mp3" type='audio/mpeg'>
+</audio>
+<audio id="73"> 
+<source src="73.mp3" type='audio/mpeg'>
+</audio>
+<audio id="74"> 
+<source src="74.mp3" type='audio/mpeg'>
+</audio>
+<audio id="75"> 
+<source src="75.mp3" type='audio/mpeg'>
+</audio>
+<audio id="76"> 
+<source src="76.mp3" type='audio/mpeg'>
+</audio>
+
+
+	<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg id='control' viewBox="0 0 500 650">
+
+<!--start-->
+<!-- Inner part of left ear -->
+<svg>
+	<a href="#"  onclick="aud_play_pause('1')">
+	<polygon class="ieshape1" points=" 114.49,81.32 160.01,126.88 125.75, 142.789"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('2')">
+	<polygon class="ieshape2" points=" 147.12,211.79 160.01,126.88 125.75, 142.789"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('3')">
+	<polygon class="ieshape1" points=" 114.49,81.32 98.6, 159.23 125.75, 142.789"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('4')">
+	<polygon class="ieshape2" points=" 147.12,211.79 98.6, 159.23 125.75, 142.789"/>
+</a>
+</svg>
+
+<!-- Outer part of left ear-->
+
+<svg>
+	<a href="#" onclick="aud_play_pause('5')">
+	<polygon class="oeshape1" points="114.49,81.32 106.95,56.15  141.92,90.06 139.31,106.29"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('6')">
+	<polygon class="oeshape2" points="141.92,90.06 139.31,106.29 160.01,126.88 178.04,125.09   "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('7')">
+	<polygon class="oeshape3" points="114.49,81.32 103.22,133.22  94.39,120.62 106.95,56.15 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('8')">
+	<polygon class="oeshape3" points="103.22,133.22  94.39,120.62  84.57,171.02 98.6, 159.23 "/>
+</a>
+</svg>
+
+
+
+<svg>
+	<a href="#" onclick="aud_play_pause('9')">
+	<polygon class="oeshape2" points=" 84.57,171.02 98.6, 159.23 117.86,180.58 103.8,189.67 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('10')">
+	<polygon class="oeshape1" points=" 117.86,180.58 103.8,189.67 125.68,210.88 132.98,196.82   "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('11')">
+	<polygon class="oeshape3" points=" 132.98,196.82 147.12,211.79  155.66,239.95 125.68,210.88  "/>
+</a>
+</svg>
+
+
+
+<svg>
+	<a href="#" onclick="aud_play_pause('12')">
+	<polygon class="oeshape3" points="  178.04,125.09  160.01,126.88 154.80,163.94 170.12,173.00  "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('13')">
+	<polygon class="oeshape1" points="  154.80,163.94 170.12,173.00 164.00,203.85 150.15,194.94  "/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('14')">
+	<polygon class="oeshape1" points="  150.15,194.94 164.00,203.85 155.66,239.95 147.12,211.79   "/>
+	</a>
+</svg>
+
+<!-- Inner part of right ear -->
+
+<svg>
+	<a href="#" onclick="aud_play_pause('15')">
+	<polygon class="ieshape1" points=" 307.41,83.22 260.19,126.88 293, 142.789"/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('16')">
+	<polygon class="ieshape2" points=" 271.52,211.79 260.19,126.88 293, 142.789"/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('17')">
+	<polygon class="ieshape1" points=" 307.41,83.22 320.74, 159.23 293, 142.789"/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('18')">
+	<polygon class="ieshape2" points=" 271.52,211.79 320.74, 159.23 293, 142.789"/>
+	</a>
+</svg>
+
+<!-- Outer part of right ear -->
+<svg>
+	<a href="#" onclick="aud_play_pause('19')">
+	<polygon class="oeshape2" points=" 313.67,56.66 275.72,92.01 282.82,107.47 307.41,83.22 "/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('20')">
+	<polygon class="oeshape1" points=" 275.72,92.01 241.2,124.15   260.19,126.88 282.82,107.47 "/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('21')">
+	<polygon class="oeshape3" points="261.26,239.44 241.2,124.15   260.19,126.88 271.52,211.79 "/>
+	</a>
+</svg>
+
+
+<svg>
+	<a href="#" onclick="aud_play_pause('22')">
+	<polygon class="oeshape1" points=" 313.67,56.66  307.41,83.22 314.88,124.8 327.07,116.45"/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('23')">
+	<polygon class="oeshape2" points=" 314.88,124.8 327.07,116.45 337.73,171.96 320.74, 159.23  "/>
+	</a>
+</svg>
+
+
+<svg>
+	<a href="#" onclick="aud_play_pause('24')">
+	<polygon class="oeshape2" points=" 337.73,171.96 320.74, 159.23 271.52,211.79 261.26,239.44"/>
+	</a>
+</svg>
+
+
+
+<!-- Face -->
+<svg>
+	<a href="#" onclick="aud_play_pause('25')">
+<polygon class="bshape1" points="156.81,239.83 208.34,239.83 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('26')">
+<polygon class="bshape1" points=" 259.87,239.83 208.34,239.83 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('27')">
+<polygon class="bshape2" points=" 284.49,282.46 311.4,329.08 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('28')">
+<polygon class="bshape1" points=" 259.87,239.83 284.49,282.46 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('29')">
+<polygon class="bshape3" points=" 281.95,380.09 311.4,329.08 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('30')">
+<polygon class="bshape3" points=" 281.95,380.09 259.87,418.33 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('31')">
+<polygon class="bshape2" points=" 208.34,418.33 259.87,418.33 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('32')">
+<polygon class="bshape1" points=" 156.81,418.33 208.34,418.33 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('33')">
+<polygon class="bshape1" points=" 156.81,418.33 126.87,366.47 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('34')">
+<polygon class="bshape2" points=" 106.31,329.08 126.87,366.47 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('35')">
+<polygon class="bshape2" points=" 106.31,329.08 130.68,285.09 208.34,329.08 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('36')">
+<polygon class="bshape1" points=" 156.81,239.83 130.68,285.09 208.34,329.08 "/>
+</a>
+</svg>
+
+
+
+
+<!-- Right front leg -->
+<svg>
+	<a href="#" onclick="aud_play_pause('37')">
+<polygon class="bshape1" points="277.28,493.63 219.36,493.63 270.7,528.46 "/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('38')">
+<polygon class="bshape3" points="219.36,493.63 270.7,528.46 219.36,555.07"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('39')">
+<polygon class="bshape2" points="270.7,528.46 219.36,555.07 256.9,601.56"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('40')">
+<polygon class="bshape3" points="219.36,555.07 256.9,601.56 219.36,595.42"/>
+</a>
+</svg>
+
+<!--left front leg-->
+<svg>
+	<a href="#" onclick="aud_play_pause('41')">
+<polygon class="bshape1" points="161.43,493.63 219.36,493.63 170.02, 539.14"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('42')">
+<polygon class="bshape1" points="161.43,493.63 219.36,493.63 170.02, 539.14"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('43')">
+<polygon class="bshape2" points="219.36,493.63 170.02, 539.14 219.36,555.07"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('44')">
+<polygon class="bshape2" points="170.02, 539.14 219.36,555.07 181.81,601.56"/>
+</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('45')">
+<polygon class="bshape3" points="219.36,555.07 181.81,601.56 219.36,595.42"/>
+</a>
+</svg>
+
+<!-- left hind leg -->
+<svg>
+	<a href="#" onclick="aud_play_pause('46')">
+	<polygon class="bshape3" points="136.04,493.63 170.02,539.14 170.23,584.02"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('47')">
+	<polygon class="bshape1" points="136.04,493.63 161.43,493.63 170.02,539.14"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('48')">
+	<polygon class="bshape1" points="170.02,539.14 170.23,584.02 178.23,582.02"/>
+	</a>
+</svg>
+
+
+<!-- right hind leg -->
+<svg>
+	<a href="#" onclick="aud_play_pause('49')">
+	<polygon class="bshape2" points="277.28,493.63 328.28, 493.63 314.97,533.54"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('50')">
+	<polygon class="bshape3" points="277.28,493.63  314.97,533.54 261.29,578.32"/>
+	</a>
+</svg>
+<svg>
+	<polygon class="bshape2" points="314.97,533.54 261.29,578.32 295.28,584.02"/>
+	</a>
+</svg>
+
+<!-- Tail -->
+<svg>
+	<a href="#" onclick="aud_play_pause('51')">
+	<polygon class="tshape1" points="408.22,191.08 358.85,230.33 366.02,252.44"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('52')">
+	<polygon class="tshape2" points="408.22,191.08 374.61,239.95 382.00,257.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('53')">
+	<polygon class="tshape2" points="408.22,191.08 387.12,244.64 395.11,261.21 406,248.79"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('54')">
+	<polygon class="tshape1" points="408.22,191.08 405.49,262.09 423.58,253.18"/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('55')">
+	<polygon class="bshape3" points="326.62,255.95 395.11,261.21 387.12,244.64 382.00,257.63 374.61,239.95 366.02,252.44 358.85,230.33"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('56')">
+	<polygon class="bshape1" points="395.11,261.21 406,248.79 405.49,262.09 423.58,253.18 437.38,308.97"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('57')">
+	<polygon class="bshape2" points="395.11,261.21 326.62,255.95 339.44,307.77"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('58')">
+	<polygon class="bshape3" points="395.11,261.21  339.44,307.77 355.78,373.85"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('59')">
+	<polygon class="bshape2" points="395.11,261.21   355.78,373.85 408.28,330.08"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('60')">
+	<polygon class="bshape1" points="395.11,261.21    408.28,330.08 437.38,308.97"/>
+	</a>
+</svg>
+
+<!-- Neck -->
+<svg>
+	<a href="#" onclick="aud_play_pause('61')">
+	<polygon class="tshape3" points="144.15,396.40 117.81,418.33 156.81,418.33"/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('62')">
+	<polygon class="tshape3" points="117.81,418.33 156.81,418.33 137.81,451.33"/>
+	</a>
+</svg>
+
+<svg>
+	<a href="#" onclick="aud_play_pause('63')">
+	<polygon class="tshape1" points="117.81,418.33, 117.81,493.63 137.81,451.33"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('64')">
+	<polygon class="tshape2" points="137.81,451.33 117.81,493.63 166.03,493.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('65')">
+	<polygon class="tshape2" points="137.81,451.33 156.81,418.33 183.81,451.33 166.03,493.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('66')">
+	<polygon class="tshape1" points="156.81,418.33 183.81,451.33 208.34,418.33"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('67')">
+	<polygon class="tshape1" points="183.81,451.33 166.03,493.63 219.36,493.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('68')">
+	<polygon class="tshape3" points="183.81,451.33 208.34,418.33 240.34,451.33 219.36,493.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('69')">
+	<polygon class="tshape2" points="208.34,418.33 240.34,451.33 279.27,418.33"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('70')">
+	<polygon class="tshape3" points="219.36,493.63 240.34,451.33 277.28,493.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('71')">
+	<polygon class="tshape1" points="240.34,451.33 279.27,418.33 308.34,451.33 277.28,493.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('72')">
+	<polygon class="tshape1" points="279.27,418.33 308.34,451.33 344.09,418.33"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('73')">
+	<polygon class="tshape2" points="308.34,451.33 277.28,493.63 344.09,493.63"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('74')">
+	<polygon class="tshape3" points="308.34,451.33  344.09,493.63 344.09,418.33"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('75')">
+	<polygon class="tshape3" points="259.87,418.33  281.95,380.08 344.09,418.33"/>
+	</a>
+</svg>
+<svg>
+	<a href="#" onclick="aud_play_pause('76')">
+	<polygon class="bshape1" points="281.95,380.08 344.09,418.33 355.78,373.85"/>
+	</a>
+</svg>
+</svg>
+
+  </body>
+</html>

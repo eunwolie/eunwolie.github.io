@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: #121221;
+  font: 700 14px/1 Lato, sans-serif;
+  letter-spacing: 0.125em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font: 700 80px/1 Monteserrat, sans-serif;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 5px solid black;
+}
+
+p{
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.ieshape1{fill:#302013;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+.ieshape2{fill:#181009;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+
+.ieshape1:hover{fill: #614126;}
+.ieshape2:hover{fill: #614126;}
+
+
+.oeshape1{fill:#49311C;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+.oeshape2{fill:#614126;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+.oeshape3{fill:#7A5230;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+
+.oeshape1:hover{fill: #F5DEB3;}
+.oeshape2:hover{fill: #F5DEB3;}
+.oeshape3:hover{fill: #F5DEB3;}
+
+.bshape1{fill:#49311C;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+.bshape2{fill:#614126;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+.bshape3{fill:#7A5230;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+
+.bshape1:hover{fill: #F5DEB3;}
+.bshape2:hover{fill: #F5DEB3;}
+.bshape3:hover{fill: #F5DEB3;}
+
+.tshape1{fill:#F5DEB3;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+.tshape2{fill:#FFF8DC;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+.tshape3{fill:#D2B48C;stroke:#FFFFFF;stroke-miterlimit:20; pointer-events: all;}
+
+.tshape1:hover{fill: #7A5230;}
+.tshape2:hover{fill: #7A5230;}
+.tshape3:hover{fill: #7A5230;}
+
+#responsive-drawing {  width: 100%;  height: auto; } 
